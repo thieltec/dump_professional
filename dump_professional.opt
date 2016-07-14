@@ -1,0 +1,26 @@
+[client]
+user                      = mysqldumper
+host                      = 127.0.0.1
+port                      = 3306
+#password                  = 72jEEHldGTq15o50Ln3Q
+
+[option]
+# full|meta|data|tables|sp|triggers|routines|events
+mode        	= full
+# backup|ansi|replication|migrate
+scope       	= backup	
+info        	= 1			
+add_drop    	= 0			
+performance 	= innodb	
+
+area			= use		
+schemata		=			
+
+all				= 1
+position		= 1			
+loglevel    	= INFO
+run         	= 1			
+path        	= 
+#file			=
+compression		= gzip	
+#basedir 
